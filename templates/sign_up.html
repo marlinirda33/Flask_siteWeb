@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if title %} {{title}} {%else%} PAGE D'ENREGISTREMENT {%endif%}</title>
+
+    <link rel="stylesheet" type="text/css" href="/static/css/login.css/" >
+</head>
+<body>
+    <section>
+        <div class="image"></div>
+        <form method="post">
+            <h2><span>.enregist</span>rement</h2>
+
+            <label>Nom</label>
+            <input type="text" id="nom" name="name" required>
+
+            <label>Prénom</label>
+            <input type="text" id="pnom" name="pname" required>
+
+            <label>Email</label>
+            <input type="email" id="mail" name="mail" required>
+            
+            <label>Mot de passe</label>
+            <input type="password" id="passe" name="passwd" required>
+            
+            <label>Confirmation du mot de passe</label>
+            <input type="password" id="passwd2" name="passwd2" required>
+
+            
+            <button>S'inscrire</button>
+
+        </form>
+        <p class="request_message">Veuillez remplir tous les champs !</p>
+        <p class="information">Vous avez un compte ?<a href="C:\Users\nixon\OneDrive\Bureau\d\anim2.html">Se connnecter</a></p>
+    </section>
+    
+</body>
+</html>
